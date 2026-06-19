@@ -1,0 +1,977 @@
+body{
+  margin: 0;}
+#upper{
+  background-color: black;
+  height: 150px;
+  color: white;}
+#logo1{
+  height: 30px;
+  margin-top: 12px;
+  margin-left: 35px;}
+#menu{
+  position: absolute;
+  font-size: 20px;
+  left: 8px;
+  margin-top: 10px;
+  font-weight: bold;}
+.amazon-style-cart{
+  color: white;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  transform: scale(0.85)}
+.amazon-style-profile{
+  color: white;
+  position: absolute;
+  right: 55px;
+  top: 6px;
+  transform: scale(0.85)}
+#name{
+  text-decoration: none;
+  color: white;
+  POSITION: absolute;
+  top: 15px;
+  right: 87px;
+  font-size: 12px;
+  font-weight: light;}
+#searchbar{
+  display: block;
+  margin-left: 5px;
+  margin-top: 8px;
+  height: 35px;
+  width: 94vw;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#enter{
+  border: 1px solid white;
+  background-color: #FEBD69;
+  height: 43px;
+  width: 50px;
+  position: absolute;
+  border-radius: 10px;
+  top: 54px;
+  right: 7px;}
+x{
+  font-size: 13px;
+  margin-left: 10px;
+  display: block;
+  margin-top: 7px;}
+.shop-by{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;}
+
+#lower{
+  height: 40px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 14px;
+  position: sticky;
+  top: 0px;}
+
+#loc{
+  scale: 0.4;
+  color: black;}
+#firstrow {
+  height: 400px;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+#p1,#p2,#p3,#p4,#p5,#p6{
+  height: 390px;
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+#item1,#item2,#item3,#item4{
+  height: 120px;
+  width: 110px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+#trmr,#chess{
+  height: 65px;
+  margin-left: 9px;
+  position: relative;
+  bottom: 5px;
+}
+#sp{
+  position: relative;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+#secrow{
+  height: 150px;
+  width: 100%;
+  white-space: nowrap;
+  overflow-X: auto;
+  display: flex;
+}
+
+#trmr2{
+  height: 65px;
+  margin-left: 9px;
+  position: relative;
+  bottom: 8px;
+}
+
+#item4{
+  background-image: url("p4.jpg");
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#recommendation{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow-X: auto;}
+
+#prime,#grocery,#price,#pay,#mobile,#fashion,#mx,#travel,#discount,#kitchen,#elecronic{
+  height: 40px;
+  flex-shrink: 0;}
+#deals{
+  margin-left: 10px;}
+
+#deal1,#deal2{
+  height: 370px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+}
+#dealsbox{
+  height: 390px;
+  width: 100%;
+  display: flex;
+  overflow-X: auto;}
+#chessdeal,#secdeal1{
+  height: 90px;
+  position: absolute;
+  top: 28px;
+  right: 170px;}
+
+#dealsforu{
+  position: absolute;
+  top: 7px;
+  left: 15px;}
+#off15,#off45{
+  background-color: #5c0f0f;
+  padding: 3px;
+  height: 17px;
+  width: 55px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  font-size: 13px;
+  font-family: Georgia;}
+#few1,#few21{
+  color: #5c0f0f;
+  font-family: Georgia;
+  margin-left: 18px;
+  position: absolute;
+  top: 165px;
+  font-size: 12px;
+}
+#playdeal,#secdeal2{
+  height: 67px;
+  position: absolute;
+  top: 38px;
+  right: 20px;
+}
+#off55,#off87{
+  background-color: #5c0f0f;
+  padding: 3px;
+  height: 17px;
+  width: 55px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  top: 130px;
+  right: 60px;
+  font-size: 13px;
+  font-family: Georgia;}
+#few2,#few22{
+  color: #5c0f0f;
+  font-family: Georgia;
+  position: absolute;
+  top: 165px;
+  font-size: 12px;
+  right: 20px;}
+
+#off48,#off56{
+  background-color: #5c0f0f;
+  padding: 3px;
+  height: 17px;
+  width: 55px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  font-size: 13px;
+  font-family: Georgia;}
+
+#trimmerdeal,#secdeal3{
+  height: 98px;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;}
+
+#few3,#few23{
+  color: #5c0f0f;
+  font-family: Georgia;
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  left: 20px;}
+
+#trimmer2deal,#secdeal4{
+  height: 96px;
+  position: absolute;
+  bottom: 65px;
+  right: 15px;}
+#off67,#off34{
+  background-color: #5c0f0f;
+  padding: 3px;
+  height: 17px;
+  width: 55px;
+  border-radius: 3px;
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  right: 60px;
+  font-size: 13px;
+  font-family: Georgia;}
+#few4,#few24{
+  color: #5c0f0f;
+  font-family: Georgia;
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+  right: 20px;}
+#secdeal4{
+  right: 50px;
+  bottom: 70px;}
+#secdeal3{
+  bottom: 70px;}
+#secdeal1{
+  top: 25px;}
+#secdeal2{
+  height: 75px;
+  right: 30px;}
+
+/*Optimized for 360 x 800px screens
+   Requires <meta name="viewport" content="width=device-width,
+   initial-scale=1.0"> in the HTML head, otherwise the browser ignores
+   real device width and this breakpoint will never match correctly.
+   Every selector from the stylesheet above has a matching rule here.
+   Existing rules above are untouched; these overrides keep the native,
+   "zoomed-in" app-like proportions instead of shrinking everything down.*/
+@media only screen and (max-width: 360px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  #upper{
+    height: 150px;
+  }
+
+  img{
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 32px;
+  }
+
+  #menu{
+    font-size: 20px;
+    left: 8px;
+    margin-top: 10px;
+  }
+
+  .amazon-style-cart{
+    top: 6px;
+    right: 8px;
+    transform: scale(0.85);
+  }
+
+  .amazon-style-profile{
+    right: 50px;
+    top: 6px;
+    transform: scale(0.85);
+  }
+
+  #name{
+    top: 15px;
+    right: 80px;
+    font-size: 12px;
+  }
+
+  #searchbar{
+    margin-left: 5px;
+    margin-top: 8px;
+    height: 35px;
+    width: 92vw;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  #enter{
+    height: 43px;
+    width: 48px;
+    border-radius: 10px;
+    top: 54px;
+    right: 6px;
+  }
+
+  x{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+
+  a{
+    margin-left: 8px;
+    font-size: 13px;
+  }
+
+  #lower{
+    height: 40px;
+    font-size: 13px;
+  }
+
+  #loc{
+    scale: 0.38;
+  }
+
+  #firstrow{
+    height: 380px;
+  }
+
+  #p1,#p2,#p3,#p4,#p5,#p6{
+    height: 370px;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+
+  #item1,#item2,#item3,#item4{
+    height: 120px;
+    width: 108px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+  }
+
+  #trmr,#chess{
+    height: 62px;
+    margin-left: 8px;
+    bottom: 5px;
+  }
+
+  #sp{
+    font-size: 11px;
+    margin-left: 7px;
+  }
+
+  #secrow{
+    height: 145px;
+  }
+
+  #trmr2{
+    height: 62px;
+    margin-left: 8px;
+    bottom: 7px;
+  }
+
+  #item4{
+    font-size: 18px;
+  }
+
+  #recommendation{
+    height: 55px;
+  }
+
+  #prime,#grocery,#price,#pay,#mobile,#fashion,#mx,#travel,#discount,#kitchen,#elecronic{
+    height: 38px;
+  }
+
+  #deals{
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  #deal1,#deal2{
+    height: 360px;
+    width: 295px;
+    margin-left: 5px;
+    margin-right: 8px;
+  }
+
+  #dealsbox{
+    height: 380px;
+  }
+
+  #chessdeal,#secdeal1{
+    height: 88px;
+    top: 27px;
+    right: 165px;
+  }
+
+  #dealsforu{
+    top: 7px;
+    left: 14px;
+  }
+
+  #off15,#off45{
+    height: 16px;
+    width: 60px;
+    top: 127px;
+    left: 18px;
+    font-size: 12px;
+  }
+
+  #few1,#few21{
+    margin-left: 16px;
+    top: 160px;
+    font-size: 11px;
+  }
+
+  #playdeal,#secdeal2{
+    height: 65px;
+    top: 37px;
+    right: 18px;
+  }
+
+  #off55,#off87{
+    height: 16px;
+    width: 60px;
+    top: 127px;
+    right: 55px;
+    font-size: 12px;
+  }
+
+  #few2,#few22{
+    top: 160px;
+    font-size: 11px;
+    right: 18px;
+  }
+
+  #off48,#off56{
+    height: 16px;
+    width: 60px;
+    bottom: 34px;
+    left: 18px;
+    font-size: 12px;
+  }
+
+  #trimmerdeal,#secdeal3{
+    height: 96px;
+    bottom: 58px;
+    left: 0px;
+  }
+
+  #few3,#few23{
+    bottom: 9px;
+    font-size: 11px;
+    left: 18px;
+  }
+
+  #trimmer2deal,#secdeal4{
+    height: 94px;
+    bottom: 63px;
+    right: 14px;
+  }
+
+  #off67,#off34{
+    height: 16px;
+    width: 60px;
+    bottom: 34px;
+    right: 55px;
+    font-size: 12px;
+  }
+
+  #few4,#few24{
+    bottom: 9px;
+    font-size: 11px;
+    right: 18px;
+  }
+
+  #secdeal4{
+    right: 46px;
+    bottom: 68px;
+  }
+
+  #secdeal3{
+    bottom: 68px;
+  }
+
+  #secdeal1{
+    top: 24px;
+  }
+
+  #secdeal2{
+    height: 73px;
+    right: 28px;
+  }
+
+}
+
+   /*TIER 2 — Standard phones: 375 / 390 / 412px wide
+   (iPhone SE/X/12 mini, iPhone 12/13/14, Pixel/most Android phones)
+   These widths are close to the original design's reference size, so
+   values here mirror the base rules above almost exactly — written
+   out explicitly so this range is deliberately tuned, not accidental. */
+@media only screen and (min-width: 361px) and (max-width: 413px) {
+
+  #upper{ height: 150px; }
+
+  img{ height: 30px; margin-top: 12px; margin-left: 35px; }
+
+  #menu{ font-size: 20px; left: 8px; margin-top: 10px; }
+
+  .amazon-style-cart{ top: 6px; right: 10px; transform: scale(0.85); }
+
+  .amazon-style-profile{ right: 55px; top: 6px; transform: scale(0.85); }
+
+  #name{ top: 15px; right: 87px; font-size: 12px; }
+
+  #searchbar{
+    margin-left: 5px; margin-top: 8px; height: 35px; width: 94vw;
+    border: 3px solid white; border-radius: 10px; font-size: 15px;
+  }
+
+  #enter{ height: 43px; width: 50px; border-radius: 10px; top: 54px; right: 7px; }
+
+  x{ font-size: 13px; margin-left: 10px; margin-top: 7px; }
+
+  a{ margin-left: 10px; font-size: 14px; }
+
+  #lower{ height: 40px; font-size: 14px; }
+
+  #loc{ scale: 0.4; }
+
+  #firstrow{ height: 400px; }
+
+  #p1,#p2,#p3,#p4,#p5,#p6{ height: 390px; margin-top: 3px; margin-left: 3px; }
+
+  #item1,#item2,#item3,#item4{
+    height: 120px; width: 110px;
+    margin-left: 10px; margin-right: 10px; margin-top: 10px;
+  }
+
+  #trmr,#chess{ height: 65px; margin-left: 9px; bottom: 5px; }
+
+  #sp{ font-size: 12px; margin-left: 8px; }
+
+  #secrow{ height: 150px; }
+
+  #trmr2{ height: 65px; margin-left: 9px; bottom: 8px; }
+
+  #item4{ font-size: 20px; }
+
+  #recommendation{ height: 60px; }
+
+  #prime,#grocery,#price,#pay,#mobile,#fashion,#mx,#travel,#discount,#kitchen,#elecronic{ height: 40px; }
+
+  #deals{ margin-left: 10px; }
+
+  #deal1,#deal2{ height: 370px; width: 300px; margin-left: 5px; margin-right: 10px; }
+
+  #dealsbox{ height: 390px; }
+
+  #chessdeal,#secdeal1{ height: 90px; top: 28px; right: 170px; }
+
+  #dealsforu{ top: 7px; left: 15px; }
+
+  #off15,#off45{ height: 17px; width: 55px; top: 130px; left: 20px; font-size: 13px; }
+
+  #few1,#few21{ margin-left: 18px; top: 165px; font-size: 12px; }
+
+  #playdeal,#secdeal2{ height: 67px; top: 38px; right: 20px; }
+
+  #off55,#off87{ height: 17px; width: 55px; top: 130px; right: 60px; font-size: 13px; }
+
+  #few2,#few22{ top: 165px; font-size: 12px; right: 20px; }
+
+  #off48,#off56{ height: 17px; width: 55px; bottom: 35px; left: 20px; font-size: 13px; }
+
+  #trimmerdeal,#secdeal3{ height: 98px; bottom: 60px; left: 0px; }
+
+  #few3,#few23{ bottom: 10px; font-size: 12px; left: 20px; }
+
+  #trimmer2deal,#secdeal4{ height: 96px; bottom: 65px; right: 15px; }
+
+  #off67,#off34{ height: 17px; width: 55px; bottom: 35px; right: 60px; font-size: 13px; }
+
+  #few4,#few24{ bottom: 10px; font-size: 12px; right: 20px; }
+
+  #secdeal4{ right: 50px; bottom: 70px; }
+
+  #secdeal3{ bottom: 70px; }
+
+  #secdeal1{ top: 25px; }
+
+  #secdeal2{ height: 75px; right: 30px; }
+
+}
+
+/* ===================================================================
+   TIER 3 — Large phones: 414 / 428px wide
+   (iPhone 6-8/XR/11 Plus, iPhone 12/13/14 Pro Max)
+   ~7% larger than Tier 2 so the extra screen width doesn't leave the
+   layout looking small — still a native app feel, not stretched.
+   =================================================================== */
+@media only screen and (min-width: 414px) and (max-width: 479px) {
+
+  #upper{ height: 160px; }
+
+  img{ height: 32px; margin-top: 13px; margin-left: 38px; }
+
+  #menu{ font-size: 21px; left: 9px; margin-top: 11px; }
+
+  .amazon-style-cart{ top: 6px; right: 10px; transform: scale(0.92); }
+
+  .amazon-style-profile{ right: 58px; top: 6px; transform: scale(0.92); }
+
+  #name{ top: 16px; right: 90px; font-size: 13px; }
+
+  #searchbar{
+    margin-left: 6px; margin-top: 9px; height: 37px; width: 94vw;
+    border: 3px solid white; border-radius: 10px; font-size: 16px;
+  }
+
+  #enter{ height: 46px; width: 53px; border-radius: 10px; top: 58px; right: 7px; }
+
+  x{ font-size: 14px; margin-left: 11px; margin-top: 8px; }
+
+  a{ margin-left: 11px; font-size: 15px; }
+
+  #lower{ height: 42px; font-size: 15px; }
+
+  #loc{ scale: 0.43; }
+
+  #firstrow{ height: 425px; }
+
+  #p1,#p2,#p3,#p4,#p5,#p6{ height: 415px; margin-top: 3px; margin-left: 3px; }
+
+  #item1,#item2,#item3,#item4{
+    height: 128px; width: 118px;
+    margin-left: 11px; margin-right: 11px; margin-top: 11px;
+  }
+
+  #trmr,#chess{ height: 69px; margin-left: 10px; bottom: 5px; }
+
+  #sp{ font-size: 13px; margin-left: 9px; }
+
+  #secrow{ height: 160px; }
+
+  #trmr2{ height: 69px; margin-left: 10px; bottom: 8px; }
+
+  #item4{ font-size: 21px; }
+
+  #recommendation{ height: 64px; }
+
+  #prime,#grocery,#price,#pay,#mobile,#fashion,#mx,#travel,#discount,#kitchen,#elecronic{ height: 43px; }
+
+  #deals{ margin-left: 12px; }
+
+  #deal1,#deal2{ height: 395px; width: 320px; margin-left: 5px; margin-right: 11px; }
+
+  #dealsbox{ height: 415px; }
+
+  #chessdeal,#secdeal1{ height: 96px; top: 30px; right: 182px; }
+
+  #dealsforu{ top: 8px; left: 16px; }
+
+  #off15,#off45{ height: 18px; width: 59px; top: 139px; left: 21px; font-size: 14px; }
+
+  #few1,#few21{ margin-left: 19px; top: 176px; font-size: 13px; }
+
+  #playdeal,#secdeal2{ height: 72px; top: 41px; right: 21px; }
+
+  #off55,#off87{ height: 18px; width: 59px; top: 139px; right: 64px; font-size: 14px; }
+
+  #few2,#few22{ top: 176px; font-size: 13px; right: 21px; }
+
+  #off48,#off56{ height: 18px; width: 59px; bottom: 37px; left: 21px; font-size: 14px; }
+
+  #trimmerdeal,#secdeal3{ height: 105px; bottom: 64px; left: 0px; }
+
+  #few3,#few23{ bottom: 11px; font-size: 13px; left: 21px; }
+
+  #trimmer2deal,#secdeal4{ height: 103px; bottom: 70px; right: 16px; }
+
+  #off67,#off34{ height: 18px; width: 59px; bottom: 37px; right: 64px; font-size: 14px; }
+
+  #few4,#few24{ bottom: 11px; font-size: 13px; right: 21px; }
+
+  #secdeal4{ right: 54px; bottom: 75px; }
+
+  #secdeal3{ bottom: 75px; }
+
+  #secdeal1{ top: 27px; }
+
+  #secdeal2{ height: 80px; right: 32px; }
+
+}
+
+/* ===================================================================
+   TIER 4 — Tablets & Desktop: 480px and wider
+   No phone is this wide, so instead of stretching the mobile layout
+   edge-to-edge (which would scatter the absolutely-positioned icons
+   far from the content and blow up the search bar), the whole site is
+   capped at a phone-card width and centered, like a native app preview.
+   This makes body itself the positioning anchor, so every absolutely
+   positioned element (icons, offer tags, deal badges) stays correctly
+   anchored to the card edges instead of the full browser window.
+   =================================================================== */
+@media only screen and (min-width: 480px) {
+
+  html{
+    background-color: #d9d9d9;
+  }
+
+  body{
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  }
+
+  #searchbar{
+    width: 94%;
+  }
+
+}
+#footer{
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+#backtotop{
+  text-decoration: none;}
+#info{
+  height: 500px;
+  background-color: black;}
+#gettoknow{
+  vertical-align: top;
+  display: inline-block;
+  height: 200px;
+  width: 150px;
+  color: white
+}
+.gettoknow{
+  color: white;
+  text-decoration: none;
+  font-family: Georgia;
+  text-align: left;}
+#help{
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  color: white
+}
+l{
+  font-family: Georgia;
+  position: relative;
+  left: 24px;
+  font-weight: light;
+  font-size: 13px;
+  top: 9px;}
+#list2{
+  position: relative;
+  top: 18px;}
+
+#list2::marker {
+  font-size: 0.5em; /* Reduces bullet size to 80% of the text font size */
+}
+#list1::marker {
+  font-size: 0.5em;}
+#footer-separator {
+  border: none;
+  border-top: 1px solid white;
+  margin-top: 0px;}
+#logo2{
+  margin-left: 87px;
+  transform: scale(0.9);}
+#language{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  height: 25px;
+  padding: 5px;
+  font-size: 10px;
+  position: absolute;
+  right: 140px;
+  top: 1650px;
+  transform: scale(1.1);}
+#country-select{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 100px;
+  padding: 5px;
+  font-size: 10px;
+  position: absolute;
+  right: 137px;
+  top: 1680px;
+  transform: scale(1.05);}
+#last{
+  position: relative;
+  top: 70px;
+  font-size: 10px;
+  color: white;}
+/*FOOTER MEDIA QUERIES (Appended Code)
+Adjusts footer proportions for mobile screens in a "zoomed-in" layout.*/
+
+@media only screen and (max-width: 479px) {
+  /* Establish relative context so absolute elements stay inside the footer */
+  #info {
+    position: relative;
+    height: 500px;
+    text-align: center; /* Centers the logo inline */
+  }
+  
+  /* Reset alignment for the lists so they don't center */
+  #gettoknow, #help {
+    text-align: left;
+  }
+  /* centering the dropdown selectors */
+  #language {
+    top: 330px !important;
+    right: auto !important;
+    left: 50%;
+    transform: translateX(-50%) scale(1) !important;
+  }
+
+  #country-select {
+    top: 370px !important;
+    right: auto !important;
+    left: 50%;
+    transform: translateX(-50%) scale(1.05) !important;
+  }
+
+  /* Format copyright text to wrap gracefully within the screen */
+  #last {
+    top: 140px !important;
+    white-space: pre-wrap;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    line-height: 1.5;
+  }
+}
+
+/*Tier 1 — Small Mobile (max-width 360px)*/
+@media only screen and (max-width: 360px) {
+  #footer { height: 40px; font-size: 13px; }
+  #gettoknow { width: 140px; height: 180px; }
+  #gettoknow pre { font-size: 12px; margin-left: -5px; }
+  #help { width: 170px; height: 260px; }
+  .gettoknow { font-size: 12px; }
+  l { font-size: 12px; left: 15px; }
+  #logo2 { transform: scale(0.8); }
+  #language { transform: translateX(-50%) scale(0.9) !important; }
+  #country-select { transform: translateX(-50%) scale(0.95) !important; }
+  #last { font-size: 9px; }
+}
+
+/*Tier 2 — Standard Mobile (361px - 413px)*/
+@media only screen and (min-width: 361px) and (max-width: 413px) {
+  #footer { height: 45px; font-size: 14px; }
+  #gettoknow { width: 160px; height: 190px; }
+  #gettoknow pre { font-size: 13px; margin-left: -5px; }
+  #help { width: 190px; height: 280px; }
+  .gettoknow { font-size: 13px; }
+  l { font-size: 13px; left: 20px; }
+  #logo2 { transform: scale(0.9); }
+  #last { font-size: 9.5px; }
+}
+/*TIER 3 — Large Mobile (414px - 479px)*/
+@media only screen and (min-width: 414px) and (max-width: 479px) {
+  #footer { height: 50px; font-size: 15px; }
+  #gettoknow { width: 180px; height: 200px; }
+  #gettoknow pre { font-size: 14px; }
+  #help { width: 210px; height: 300px; }
+  .gettoknow { font-size: 14px; }
+  l { font-size: 14px; left: 24px; }
+  #logo2 { transform: scale(1); }
+  #last { font-size: 10px; }
+}
+@media only screen and (max-width: 768px) {
+  /* 1. Allow the main footer containers to expand dynamically */
+  #footer, #info {
+    height: auto !important;
+    min-height: auto !important;
+  }
+  /* 2. Strip away the absolute positioning that throws elements off-screen */
+  #logo2, #language, #country-select, #last {
+    position: static !important; 
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+  }
+#logo2 {
+  display: block !important;
+  width: 100% !important; 
+  text-align: center !important;
+  margin: 30px 0 15px 0 !important;
+}
+#logo2 img {
+  margin: 0 !important; /* This kills the rogue 35px left margin */
+  display: inline-block !important;
+}
+  }
+  /* 4. Stack and center the Language and Country selectors */
+  #language, #country-select {
+    display: table !important; /* Shrinks to content width while keeping margin: auto intact */
+    margin: 15px auto !important; 
+  }
+  /* 5. Wrap and center the copyright text neatly at the bottom */
+  #last {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+    padding: 20px 15px 40px 15px !important;
+    margin: 20px auto 0 auto !important;
+    white-space: normal !important; /* Allows long text to drop to the next line naturally */
+    line-height: 1.6 !important;
+  }
