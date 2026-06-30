@@ -733,27 +733,38 @@ footer {
   #firstrow {
     gap: 4px;
     padding: 10px;
+    min-height: 270px;
   }
 
   #firstrow img {
     flex-basis: auto;
-    height: 200px;
+    height: 250px;
   }
 
   #secrow {
-    gap: 12px;
+    gap: 8px;
     margin: 12px 12px 18px;
   }
 
   #secrow > div {
-    flex-basis: 250px;
-    min-height: 230px;
+    flex-basis: 170px;
+    min-height: 170px;
+    padding: 10px;
   }
 
   #trmr,
   #trmr2,
   #chess {
-    height: 180px;
+    height: 120px;
+  }
+
+  #item4 {
+    min-height: 170px;
+  }
+
+  #item4 #sp {
+    padding: 6px 8px;
+    font-size: 15px;
   }
 
   main > b:not(#deals),
